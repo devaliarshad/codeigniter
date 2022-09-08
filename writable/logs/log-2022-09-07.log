@@ -1,0 +1,1197 @@
+CRITICAL - 2022-09-07 02:02:56 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:03:11 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:03:18 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:09:42 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:12:27 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:12:31 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 02:13:19 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 08:47:51 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'codeigniter_tes...', 3306, '', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-09-07 08:49:09 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Common.php(346): CodeIgniter\Database\Config::connect('default', true)
+ 4 SYSTEMPATH/Database/MigrationRunner.php(150): db_connect(null)
+ 5 SYSTEMPATH/Config/Services.php(407): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 6 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 7 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 8 SYSTEMPATH/Config/Services.php(402): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 9 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+11 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+14 SYSTEMPATH/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+16 SYSTEMPATH/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+18 ROOTPATH/spark(98): CodeIgniter\CLI\Console->run()
+ERROR - 2022-09-07 08:51:01 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:171
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'codeigniter_tes...', 3306, '', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:215
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-09-07 08:52:32 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Common.php(346): CodeIgniter\Database\Config::connect('default', true)
+ 4 SYSTEMPATH/Database/MigrationRunner.php(150): db_connect(null)
+ 5 SYSTEMPATH/Config/Services.php(407): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 6 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 7 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 8 SYSTEMPATH/Config/Services.php(402): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 9 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::migrations()
+10 SYSTEMPATH/Commands/Database/Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+11 SYSTEMPATH/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+14 SYSTEMPATH/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+15 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+16 SYSTEMPATH/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+18 ROOTPATH/spark(98): CodeIgniter\CLI\Console->run()
+ERROR - 2022-09-07 08:53:38 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:171
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'codeigniter_tes...', 3306, '', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:215
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1385): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1419): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-09-07 09:02:40 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:03:04 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:20 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:21 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:22 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:28 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:29 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:30 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:30 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:32 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:54 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:04:55 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:09:03 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:09:12 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:09:14 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:11:58 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:12:06 -->  filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ROOTPATH/public')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('ROOTPATH/public', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:12:22 -->  filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ROOTPATH/public')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('ROOTPATH/public', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:29:31 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:29:38 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:32:52 --> authFilter filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:33:51 -->  filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ROOTPATH/public')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('ROOTPATH/public', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:36:39 --> usersFiltersNoAuth filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 340.
+ 1 SYSTEMPATH/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('usersFiltersNoAuth')
+ 2 SYSTEMPATH/CodeIgniter.php(422): CodeIgniter\Filters\Filters->enableFilter('usersFiltersNoAuth', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:43:26 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH/Config/Routes.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(769): require()
+ 2 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:44:43 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH/Config/Routes.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(769): require()
+ 2 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:44:56 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH/Config/Routes.php on line 58.
+ 1 SYSTEMPATH/CodeIgniter.php(769): require()
+ 2 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:46:56 --> Call to undefined method App\Controllers\CakeController::respond()
+in APPPATH/Controllers/CakeController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 09:48:25 --> Call to undefined method App\Controllers\CakeController::response()
+in APPPATH/Controllers/CakeController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 10:43:31 --> Class 'App\Models\Recipe' not found
+in APPPATH/Controllers/CakeController.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 10:44:55 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php on line 799
+in SYSTEMPATH/BaseModel.php on line 1132.
+ 1 SYSTEMPATH/BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields('cake')
+ 2 APPPATH/Controllers/CakeController.php(41): CodeIgniter\BaseModel->insertBatch([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->create()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 10:45:54 --> Allowed fields must be specified for model: App\Models\Cake
+in SYSTEMPATH/BaseModel.php on line 1139.
+ 1 SYSTEMPATH/BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cake')
+ 2 SYSTEMPATH/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/CakeController.php(21): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 10:47:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`price` INT(5) UNSIGNED NOT NULL,
+	`created_at` TIMESTAMP...' at line 4 in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(42): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 10:47:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`price` INT(5) UNSIGNED NOT NULL,
+	`created_at` TIMESTAMP...' at line 4 in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(42): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 10:50:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`price` INT(5) UNSIGNED NOT NULL,
+	`created_at` TIMESTAMP...' at line 4 in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(42): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+CRITICAL - 2022-09-07 10:52:12 --> Allowed fields must be specified for model: App\Models\Cake
+in SYSTEMPATH/BaseModel.php on line 1139.
+ 1 SYSTEMPATH/BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cake')
+ 2 SYSTEMPATH/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/CakeController.php(21): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 10:56:18 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(43): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:00:09 --> mysqli_sql_exception: Unknown column 'Array' in 'DEFAULT' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(43): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:03:19 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:04:38 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:06:44 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:08:02 --> mysqli_sql_exception: Invalid default value for 'created_at' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:08:38 --> mysqli_sql_exception: Unknown column 'Array' in 'DEFAULT' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:10:29 --> mysqli_sql_exception: Unknown column 'Array' in 'DEFAULT' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:11:51 --> mysqli_sql_exception: Unknown column 'Array' in 'DEFAULT' in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 11:12:24 --> mysqli_sql_exception: Table 'codeigniter_test.cakes' doesn't exist in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeController.php(21): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 11:12:24 --> mysqli_sql_exception: Table 'codeigniter_test.cakes' doesn't exist in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeController.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeController->index()
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#12 {main}
+CRITICAL - 2022-09-07 11:12:24 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 224.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/CakeController.php(22): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 12:43:26 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::ge()
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 12:45:27 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPut()
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 12:55:30 --> Call to undefined method App\Controllers\CakeController::put()
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:02:34 --> Too few arguments to function App\Controllers\CakeController::update(), 1 passed in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 907 and exactly 2 expected
+in APPPATH/Controllers/CakeController.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:04:01 --> Call to undefined method App\Controllers\CakeController::getRequestInput()
+in APPPATH/Controllers/CakeController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:04:22 --> Call to undefined method App\Controllers\CakeController::getRequestInput()
+in APPPATH/Controllers/CakeController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:05:13 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:06:37 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:11:25 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:14:17 --> Illegal string offset 'price'
+in APPPATH/Controllers/CakeController.php on line 61.
+ 1 APPPATH/Controllers/CakeController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH/Controllers/CakeController.php', 61, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:14:47 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:14:58 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:15:00 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 APPPATH/Controllers/CakeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:15:14 --> Illegal string offset 'price'
+in APPPATH/Controllers/CakeController.php on line 61.
+ 1 APPPATH/Controllers/CakeController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH/Controllers/CakeController.php', 61, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:15:19 --> Illegal string offset 'price'
+in APPPATH/Controllers/CakeController.php on line 61.
+ 1 APPPATH/Controllers/CakeController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'price\'', 'APPPATH/Controllers/CakeController.php', 61, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:16:05 --> Illegal string offset 'name'
+in APPPATH/Controllers/CakeController.php on line 63.
+ 1 APPPATH/Controllers/CakeController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'name\'', 'APPPATH/Controllers/CakeController.php', 63, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:17:21 --> file_get_contents(name=cake&amp;price=23&amp;recipe=recsw): failed to open stream: No such file or directory
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(name=cake&amp;price=23&amp;recipe=recsw): failed to open stream: No such file or directory', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 APPPATH/Controllers/CakeController.php(60): file_get_contents('name=cake&price=23&recipe=recsw')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:17:29 --> file_get_contents(name=cake&amp;price=23&amp;recipe=recsw): failed to open stream: No such file or directory
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(name=cake&amp;price=23&amp;recipe=recsw): failed to open stream: No such file or directory', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 APPPATH/Controllers/CakeController.php(60): file_get_contents('name=cake&price=23&recipe=recsw')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 13:23:22 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/CakeController.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH/Controllers/CakeController.php', 60, [...])
+ 2 APPPATH/Controllers/CakeController.php(60): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->update('1')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 15:11:18 --> mysqli_sql_exception: Column 'name' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeController.php(41): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeController->create()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 15:13:04 --> mysqli_sql_exception: Column 'price' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeController.php(41): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeController->create()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 15:13:33 --> mysqli_sql_exception: Column 'price' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeController.php(41): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeController->create()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+CRITICAL - 2022-09-07 15:47:05 --> syntax error, unexpected ';'
+in APPPATH/Views/cake.php on line 12.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('cake', [], true)
+ 3 APPPATH/Controllers/CakeController.php(15): view('cake')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->showmeta()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:52:28 --> Call to a member function view() on null
+in APPPATH/Controllers/CakeController.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show('10')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:52:37 --> Call to a member function view() on null
+in APPPATH/Controllers/CakeController.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show('10')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:53:01 --> Invalid file: cakes.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cakes.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('cakes', [], true)
+ 3 APPPATH/Controllers/CakeController.php(37): view('cakes', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show('10')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:54:19 --> syntax error, unexpected 'exit' (T_EXIT), expecting ';' or ','
+in APPPATH/Controllers/CakeController.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/CakeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CakeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CakeController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\CakeController')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\CakeController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:54:39 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+in APPPATH/Controllers/CakeController.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/CakeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CakeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CakeController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\CakeController')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\CakeController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 15:55:37 --> Call to a member function view() on null
+in APPPATH/Controllers/CakeController.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeController->show('10')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:22:53 --> syntax error, unexpected '}', expecting ';'
+in APPPATH/Controllers/CakeController.php on line 17.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/CakeController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CakeController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CakeController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\CakeController')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\CakeController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 16:47:28 --> mysqli_sql_exception: Table 'cakes' already exists in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-213526_AddPurchase.php(38): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddPurchase->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-09-07 16:48:17 --> mysqli_sql_exception: Table 'cakes' already exists in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('CREATE TABLE `c...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Database/Migrations/2022-09-07-132358_AddCake.php(41): CodeIgniter\Database\Forge->createTable('cakes')
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(868): App\Database\Migrations\AddCake->up()
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(900): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+CRITICAL - 2022-09-07 16:48:49 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:49:50 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:51:49 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-07 16:53:27 --> mysqli_sql_exception: Column 'user_id' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeApiController.php(20): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeApiController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 16:54:16 --> mysqli_sql_exception: Column 'user_id' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeApiController.php(20): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeApiController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 16:54:24 --> mysqli_sql_exception: Column 'user_id' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeApiController.php(20): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeApiController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 16:54:26 --> mysqli_sql_exception: Column 'user_id' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeApiController.php(20): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeApiController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+ERROR - 2022-09-07 16:54:28 --> mysqli_sql_exception: Column 'user_id' cannot be null in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php:292
+Stack trace:
+#0 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/mysqli/Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/app/Controllers/CakeApiController.php(20): CodeIgniter\Model->insert(Array)
+#8 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(907): App\Controllers\CakeApiController->index()
+#9 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+#10 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Volumes/Ali/Wa...')
+#13 {main}
+CRITICAL - 2022-09-07 16:54:29 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:54:53 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:57:44 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 16:58:53 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 17:01:07 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 17:29:40 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->check()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 17:30:08 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->check('1', '1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 17:30:14 --> Call to undefined method App\Controllers\PurchaseApiController::respondCreated()
+in APPPATH/Controllers/PurchaseApiController.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\PurchaseApiController->check('12', '1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PurchaseApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 17:51:42 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in /Volumes/Ali/Waqar Laptop/codeigniter/cakes/vendor/codeigniter4/framework/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->like('name', null, 'both')
+ 2 APPPATH/Controllers/CakeApiController.php(97): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\CakeApiController->search()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CakeApiController))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-07 18:08:22 --> syntax error, unexpected '}'
+in APPPATH/Controllers/CakeApiController.php on line 98.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/CakeApiController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CakeApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CakeApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\CakeApiController')
+ 5 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\CakeApiController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
